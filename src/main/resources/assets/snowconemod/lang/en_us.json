@@ -1,0 +1,12 @@
+{
+  "block.snowconemod.ice_shaver": "Ice Shaver",
+  "block.snowconemod.tin_block": "Tin Block",
+  "block.snowconemod.tin_ore": "Tin Ore",
+
+  "item.snowconemod.empty_snowcone": "Empty Snowcone",
+  "item.snowconemod.tin": "Tin",
+
+  "itemGroup.snowconeModGroup": "Snowcone Mod",
+
+  "screen.snowconemod.ice_shaver": "Ice Shaver"
+}

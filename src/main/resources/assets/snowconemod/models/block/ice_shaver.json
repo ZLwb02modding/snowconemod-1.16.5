@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end" : "snowconemod:block/ice_shaver_block/ice_shaver_top_and_bottom",
+    "side" : "snowconemod:block/ice_shaver_block/ice_shaver_sides"
+  }
+}
