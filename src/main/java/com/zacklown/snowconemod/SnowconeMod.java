@@ -4,6 +4,7 @@ import com.zacklown.snowconemod.block.ModBlocks;
 import com.zacklown.snowconemod.container.ModContainers;
 import com.zacklown.snowconemod.item.ModItems;
 import com.zacklown.snowconemod.screen.IceShaverScreen;
+import com.zacklown.snowconemod.screen.LightningChannelerScreen;
 import com.zacklown.snowconemod.tileentity.ModTileEntities;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -63,6 +64,7 @@ public class SnowconeMod
 
     private void doClientStuff(final FMLClientSetupEvent event) {
         ScreenManager.registerFactory(ModContainers.ICE_SHAVER_CONTAINER.get(), IceShaverScreen::new);
+        ScreenManager.registerFactory(ModContainers.LIGHTNING_CHANNELER_CONTAINER.get(), LightningChannelerScreen::new);
         // do something that can only be done on the client
         //LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().options);
     }

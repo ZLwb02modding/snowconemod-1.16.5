@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "snowconemod:block/lightning_channeler" }
+    }
+}

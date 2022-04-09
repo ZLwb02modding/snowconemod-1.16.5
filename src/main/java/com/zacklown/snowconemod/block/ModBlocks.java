@@ -2,6 +2,7 @@ package com.zacklown.snowconemod.block;
 
 import com.zacklown.snowconemod.SnowconeMod;
 import com.zacklown.snowconemod.block.custom.IceShaverBlock;
+import com.zacklown.snowconemod.block.custom.LightningChannelerBlock;
 import com.zacklown.snowconemod.item.ModItemGroup;
 import com.zacklown.snowconemod.item.ModItems;
 import net.minecraft.block.AbstractBlock;
@@ -36,6 +37,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> ICE_SHAVER = registerBlock("ice_shaver",
             ()-> new IceShaverBlock(AbstractBlock.Properties.create(Material.IRON)
                     .harvestLevel(2).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> LIGHTNING_CHANNELER = registerBlock("lightning_channeler",
+            () -> new LightningChannelerBlock(AbstractBlock.Properties.create(Material.IRON)));
 
     //-----------------------------------------------------------------------------------------------------------------
 
